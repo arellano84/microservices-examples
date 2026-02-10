@@ -4,7 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
-Flujo:
+10-02-2026
+
+Flujo en este proyecto:
 
 Controller
    ↓
