@@ -1,0 +1,86 @@
+# ======================================================
+# OS
+# ======================================================
+.DS_Store
+Thumbs.db
+
+# ======================================================
+# IDEs / Editors
+# ======================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# ======================================================
+# Logs
+# ======================================================
+logs/
+*.log
+
+# ======================================================
+# ======================= BACKEND ======================
+# ======================================================
+
+# Java / JVM
+*.class
+hs_err_pid*
+
+# Maven
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# Gradle
+**/.gradle/
+**/build/
+
+# Spring Boot
+spring-boot.log
+application-local.yml
+application-local.properties
+bootstrap-local.yml
+
+# Env / Secrets
+.env
+.env.*
+
+# ======================================================
+# ======================= FRONTEND =====================
+# ======================================================
+
+# Node / NPM
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular
+**/dist/
+**/.angular/
+**/.angular/cache/
+out/
+
+# Environment files
+!.env.example
+
+# Tests / Coverage
+coverage/
+.nyc_output/
+
+# Cache / Temp
+.cache/
+.tmp/
+
+# ======================================================
+# ======================= DOCKER =======================
+# ======================================================
+#docker-compose.override.yml
